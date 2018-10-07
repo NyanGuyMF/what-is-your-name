@@ -62,21 +62,5 @@
   <script src="https://rawgit.com/NyanSandbox/what-is-your-name/master/media/js/bootstrap.min.js"></script>
   <script src="https://rawgit.com/NyanSandbox/what-is-your-name/master/media/js//particles.min.js"></script>
   <script src="https://rawgit.com/NyanSandbox/what-is-your-name/master/media/js/app.js" defer></script>
-  <script type="text/javascript">
-    $( '#success' ).click( function(){
-      const name = $('#nameInput').val();
-      
-      $('#bu-ga-ga').modal({keyboard : false})
-      $('#NoOneLikesYou').text('');
-      let interval = setInterval(function(){
-        $('#NoOneLikesYou').append('Ты никому не нравишься, ' + name + '!<br>');
-      }, 500);
-      $('#bu-ga-ga').on('hidden.bs.modal', function (e) {
-        clearInterval(interval);
-      })
-    });
-
-  </script>
-
 </body>
 </html>
