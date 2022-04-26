@@ -2,7 +2,7 @@ $(document).ready( function() {
 
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
     // Load Particles.JS with custom options
-    particlesJS.load('particles-js', 'https://cdn.jsdelivr.net/gh/voidpointer0x00/what-is-your-name@master/media/assets/particles/particlesjs-config.json', function() {
+    particlesJS.load('particles-js', 'https://cdn.jsdelivr.net/gh/voidpointer0x00/what-is-your-name@1032316065ab8e806bb58ecb2108f5b5a1813d27/media/assets/particles/particlesjs-config.json', function() {
         console.log(`
         / Sex, drugs & rock'n'roll? — Bugs, hex & \\
         \\ source control                          /
